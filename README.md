@@ -7,7 +7,7 @@ Create a randomly generated password between 8-128 characters containing options
 *HTML *CSS *JavaScript
 
 ##Website
-https://sarahwylie.github.io/run-buddy/
+https://sarahwylie.github.io/Password-Generator/
 
 ##Contribution
 Made with heart and cold_sweat by Sarah Wylie
