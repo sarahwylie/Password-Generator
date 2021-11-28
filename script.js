@@ -2,7 +2,7 @@
 window.alert("Welcome to Password Generator!")
 
 var password = '';
-var characters = {
+const characters = {
   numeric: JSON.stringify = "0123456789",
   expressions: JSON.stringify = " !#$%&'()*+,-./:;<=>?@[\]^_`{|}~",
   letters: JSON.stringify = "abcdefghijklmnopqrstuvwxyz",
@@ -47,10 +47,11 @@ var chooseLexicon = function () {
   character.concat(characters.letters);
   } else if (characters.capital) {
   character.concat(characters.capital);
-  } return (charactersLength);
+  } return (generatePassword.charactersLength);
 };
 
 function generatePassword() {
+  console.log("At least I have a message for the button click...")
   var range = function () {
         prompt("Please choose a length between 8-128 characters.");
         if (password >= 8 || password <= 128) {
@@ -62,10 +63,10 @@ function generatePassword() {
          return (generatePassword);         
         };
   var charactersLength = characters.range;
-  for ( var i = 0; i < length; i++ ) {
+  for ( var i = 0; i < range; i++ ) {
     password += characters.charAt(Math.floor(Math.random() * charactersLength));
  }
- return password;
+ return ("I tried so hard and leveraged all the resources I could access within the timeframe available. Holiday travel killed me in the end.");
 };
 
 // Get references to the #generate element
